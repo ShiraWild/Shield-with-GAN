@@ -145,3 +145,4 @@ study = optuna.create_study(direction='minimize')
 study.optimize(objective, n_trials=100)
 
 print('Best hyperparameters: ', study.best_params)
+print('Best score for relevant hyperpamaters: ', study.best_value)
