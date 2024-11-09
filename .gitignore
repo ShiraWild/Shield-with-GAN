@@ -2,4 +2,6 @@
 trainlogs/*
 .venv
 models/**
-*.pkl
+**/*.pkl
+/models/
+.idea/
