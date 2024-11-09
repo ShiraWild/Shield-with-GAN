@@ -1,0 +1,4 @@
+*.pyc
+trainlogs/
+.venv
+models/
